@@ -47,12 +47,24 @@
                     <a class="navbar-brand" href="<?php echo esc_url( home_url() ); ?>"><?php echo get_bloginfo('name'); ?></a>
                 </div>
                 <div class="navbar-collapse collapse ">
-                    <ul class="nav navbar-nav">
+                    <?php
+                    wp_nav_menu( array(
+                        'theme_location'    => 'primary',
+                        'depth'             => 2,
+                        'container'         => 'div',
+                        'container_class'   => 'collapse navbar-collapse',
+                        'container_id'      => 'bs-example-navbar-collapse-1',
+                        'menu_class'        => 'nav navbar-nav',
+                        'fallback_cb'       => 'WP_Bootstrap_Navwalker::fallback',
+                        'walker'            => new WP_Bootstrap_Navwalker(),
+                    ) );
+                    ?>
+                    <!-- <ul class="nav navbar-nav">
                         <li class="active"><a href="index-2.html">Home</a></li>
                         <li><a href="about.html">About</a></li>
                         <li><a href="services.html">Service</a></li>
                         <li class="dropdown ">
-                            <a href="#" class="dropdown-toggle " data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Feature <b class=" fa fa-angle-down"></b></a>
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-delay="0" data-close-others="false">Feature <b class=" fa fa-angle-down"></b></a>
                             <ul class="dropdown-menu">
                                 <li><a href="typography.html">Typography</a></li>
                                 <li><a href="button.html">Buttons</a></li>
@@ -76,7 +88,7 @@
                             </ul>
                         </li>
                         <li><input type="text" placeholder=" Search" class="form-control search"></li>
-                    </ul>
+                    </ul> -->
                 </div>
             </div>
         </div>

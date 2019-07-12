@@ -9,6 +9,11 @@ function csswp_setup()
 {
     add_theme_support('automatic-fee-links');
     add_theme_support('title-tag');
+
+    require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
+    register_nav_menus( array(
+        'primary' => __( 'Primary Menu', 'csswp' ),
+    ) );
 }
 
 add_action('after_setup_theme', 'csswp_setup');
