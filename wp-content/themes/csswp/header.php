@@ -29,8 +29,8 @@
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 tooltipss and media queries -->
     <!--[if lt IE 9]>
-      <script src="js/html5shiv.js"></script>
-      <script src="js/respond.min.js"></script>
+      <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5shiv.js"></script>
+      <script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/respond.min.js"></script>
     <![endif]-->
     <?php wp_head(); ?>
   </head>
