@@ -1334,6 +1334,14 @@ ul.tag li a {
     width: 80px;
 }
 
+.comment-list {
+    list-style: none;
+    margin: 0 0 48px 0;
+}
+.comment-list .children {
+    list-style: none;
+    margin-left: 90px;
+}
 
 /*footer*/
 
