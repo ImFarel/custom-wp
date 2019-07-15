@@ -1,244 +1,50 @@
 <?php get_header(); ?>
-<!-- revolution slider start -->
-     <div class="fullwidthbanner-container main-slider">
-         <div class="fullwidthabnner">
-             <ul id="revolutionul" style="display:none;">
-                 <!-- 1st slide -->
-                 <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
-                     <div class="caption lfl slide_item_left"
-                          data-x="10"
-                          data-y="70"
-                          data-speed="400"
-                          data-start="1500"
-                          data-easing="easeOutBack">
-                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner/ban2.png" alt="Image 1">
-                     </div>
-                     <div class="caption lfr slide_title"
-                          data-x="670"
-                          data-y="120"
-                          data-speed="400"
-                          data-start="1000"
-                          data-easing="easeOutExpo">
-                         Clean & Creative
-                     </div>
-
-                     <div class="caption lfr slide_subtitle dark-text"
-                          data-x="670"
-                          data-y="190"
-                          data-speed="400"
-                          data-start="2000"
-                          data-easing="easeOutExpo">
-                         A Responsive Frontend Template
-                     </div>
-                     <div class="caption lfr slide_desc"
-                          data-x="670"
-                          data-y="260"
-                          data-speed="400"
-                          data-start="2500"
-                          data-easing="easeOutExpo">
-                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>
-                         accusantium doloremque laudantium, totam rem aperiam,<br>
-                         eaque ipsa quae ablic jiener.
-                     </div>
-                     <a class="caption lfr btn yellow slide_btn" href="http://thevectorlab.net/flatlab" target="_blank"
-                        data-x="670"
-                        data-y="400"
-                        data-speed="400"
-                        data-start="3500"
-                        data-easing="easeOutExpo">
-                         Watch Dashboard
-                     </a>
-
-                 </li>
-
-                 <!-- 2nd slide  -->
-                 <li data-transition="fade" data-slotamount="8" data-masterspeed="700" data-delay="9400" data-thumb="">
-                     <!-- THE MAIN IMAGE IN THE FIRST SLIDE -->
-                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner/banner_bg.jpg" alt="">
-                     <div class="caption lft slide_title"
-                          data-x="10"
-                          data-y="125"
-                          data-speed="400"
-                          data-start="1500"
-                          data-easing="easeOutExpo">
-                         YAHOOOOO. TWO IN ONE
-                     </div>
-                     <div class="caption lft slide_subtitle dark-text"
-                          data-x="10"
-                          data-y="180"
-                          data-speed="400"
-                          data-start="2000"
-                          data-easing="easeOutExpo">
-                         Admin & Frontend in a single bundle
-                     </div>
-                     <div class="caption lft slide_desc dark-text"
-                          data-x="10"
-                          data-y="240"
-                          data-speed="400"
-                          data-start="2500"
-                          data-easing="easeOutExpo">
-                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>
-                         accusantium doloremque laudantium, totam rem aperiam,<br>
-                         eaque ipsa quae ablic jiener.
-                     </div>
-                     <a class="caption lft slide_btn btn red slide_item_left" href="#" target="_blank"
-                        data-x="10"
-                        data-y="360"
-                        data-speed="400"
-                        data-start="3000"
-                        data-easing="easeOutExpo">
-                         Purchase Now
-                     </a>
-                     <div class="caption lft start"
-                          data-x="640"
-                          data-y="55"
-                          data-speed="400"
-                          data-start="2000"
-                          data-easing="easeOutBack"  >
-                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner/man.png" alt="man">
-                     </div>
-                     <div class="caption lft slide_item_right"
-                          data-x="330"
-                          data-y="20"
-                          data-speed="500"
-                          data-start="5000"
-                          data-easing="easeOutBack">
-                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner/test_man.png" id="rev-hint2" alt="txt img">
-                     </div>
-
-                 </li>
-
-                 <!-- 3rd slide  -->
-                 <li data-transition="fade" data-slotamount="7" data-masterspeed="300" data-delay="9400" data-thumb="">
-                     <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner/red-bg.jpg" alt="">
-                     <div class="caption lfl slide_item_right"
-                          data-x="10"
-                          data-y="105"
-                          data-speed="1200"
-                          data-start="1500"
-                          data-easing="easeOutBack">
-                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner/imac.png" alt="Image 1">
-                     </div>
-                     <div class="caption lfl slide_item_right"
-                          data-x="25"
-                          data-y="345"
-                          data-speed="1200"
-                          data-start="2000"
-                          data-easing="easeOutBack">
-                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner/tab.png" alt="Image 1">
-                     </div>
-                     <div class="caption lfl slide_item_right"
-                          data-x="200"
-                          data-y="330"
-                          data-speed="1200"
-                          data-start="2500"
-                          data-easing="easeOutBack">
-                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner/mobile.png" alt="Image 1">
-                     </div>
-                     <div class="caption lfl slide_item_right"
-                          data-x="250"
-                          data-y="230"
-                          data-speed="1200"
-                          data-start="3000"
-                          data-easing="easeOutBack">
-                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner/laptop.png" alt="Image 1">
-                     </div>
-                     <div class="caption lfl slide_item_right"
-                          data-x="165"
-                          data-y="30"
-                          data-speed="500"
-                          data-start="5000"
-                          data-easing="easeOutBack">
-                         <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/banner/text_imac.png" id="rev-hint1" alt="Image 1">
-                     </div>
-
-                     <div class="caption lfr slide_title slide_item_left yellow-txt"
-                          data-x="670"
-                          data-y="145"
-                          data-speed="400"
-                          data-start="3500"
-                          data-easing="easeOutExpo">
-                         Full Responsive
-                     </div>
-                     <div class="caption lfr slide_subtitle slide_item_left"
-                          data-x="670"
-                          data-y="200"
-                          data-speed="400"
-                          data-start="4000"
-                          data-easing="easeOutExpo">
-                         And Awesome Flat Design
-                     </div>
-                     <div class="caption lfr slide_desc slide_item_left"
-                          data-x="670"
-                          data-y="280"
-                          data-speed="400"
-                          data-start="4500"
-                          data-easing="easeOutExpo">
-                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem <br>
-                         accusantium doloremque laudantium, totam rem aperiam,<br>
-                         eaque ipsa quae ablic jiener.
-                     </div>
-
-
-                 </li>
-
-             </ul>
-            <div class="tp-bannertimer tp-top"></div>
-         </div>
-     </div>
-     <!-- revolution slider end -->
-
+    <!--breadcrumbs start-->
+    <div class="breadcrumbs" style="background-image: url('https://uxindo.com/wp-content/uploads/2019/07/ux-certification-ux-indonesia-gradation.jpg'); background-repeat: no-repeat; background-size: cover; position: relative; height: 268px; ">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-4">
+                    <h1>UX Certified</h1>
+                    <h4>Earn your UX certification and boost your career.</h4>
+                    <button class="btn btn-shadow btn-danger btn-lg" type="button">Learn More</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--breadcrumbs end-->
     <!--container start-->
-    <div class="container">
+    <div class="container mbot50">
         <div class="row">
             <!--feature start-->
             <div class="text-center feature-head">
-                <h1>welcome to flatlab</h1>
-                <p>Professional html Template Perfect for Admin Dashboard</p>
+                <h1>Training</h1>
+                
             </div>
-            <div class="col-lg-4 col-sm-4">
-                <section>
-                    <div class="f-box">
-                        <i class=" fa fa-desktop"></i>
-                        <h2>responsive design</h2>
+            <div class="col-lg-6 col-sm-6">
+                <div class="card">
+                    <div style="height: 194px;overflow:hidden;">
+                        <img src="https://uxindo.com/wp-content/uploads/2019/07/ux-training-for-companies-ux-indonesia.jpg" class="card-img-top">
                     </div>
-                    <p class="f-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
-                </section>
+                    <div class="card-body">
+                        <h1 class="card-title">For Companies</h1>
+                        <p class="card-text">Customized UX Workshop, Bootcamp, Retreat</p>
+                        <a href="http://wordpress-custom.test/training/for-company/" class="btn btn-shadow btn-danger">OPTIMIZE BUSINESS VALUE</a>
+                    </div>
+                </div>
             </div>
-            <div class="col-lg-4 col-sm-4">
-                <section>
-                    <div class="f-box active">
-                        <i class=" fa fa-code"></i>
-                        <h2>friendly code</h2>
+            <div class="col-lg-6 col-sm-6">
+                <div class="card">
+                    <div style="height: 194px;overflow:hidden;">
+                        <img src="https://uxindo.com/wp-content/uploads/2019/07/ux-training-for-individuals-ux-indonesia.jpg" class="card-img-top">
                     </div>
-                    <p class="f-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
-                </section>
-            </div>
-            <div class="col-lg-4 col-sm-4">
-                <section>
-                    <div class="f-box">
-                        <i class="fa fa-gears"></i>
-                        <h2>fully customizable</h2>
+                    <div class="card-body">
+                        <h1 class="card-title">For Individuals</h1>
+                        <p class="card-text">UX Courses for Beginners and Professionals</p>
+                        <a href="#" class="btn btn-shadow btn-danger">ADVANCE MY CAREER</a>                    
                     </div>
-                    <p class="f-text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
-                </section>
+                </div>
             </div>
             <!--feature end-->
-        </div>
-        <div class="row">
-            <!--quote start-->
-            <div class="quote">
-                <div class="col-lg-9 col-sm-9">
-                    <div class="quote-info">
-                        <h1>developer friendly code</h1>
-                        <p>Bundled with awesome features, UI resource unlimited colors, advanced theme options & much more!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-sm-3">
-                    <a href="http://themeforest.net/item/flatlab-bootstrap-3-responsive-admin-template/5902687?WT.ac=portfolio&amp;WT.z_author=vectorlab" class="btn btn-danger purchase-btn" target="_blank">Purchase now</a>
-                </div>
-            </div>
-            <!--quote end-->
         </div>
     </div>
 
@@ -247,297 +53,135 @@
     <div class="property gray-bg">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 col-sm-6 text-center">
-                    <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/property-img.png" alt="">
+                <div class="col-lg-5">
+                    <!--testimonial start-->
+                    <div class="about-testimonial boxed-style about-flexslider ">
+                        <section class="slider">
+                            <div class="flexslider">
+                                <ul class="slides about-flex-slides">
+                                    <li>
+                                        <div class="about-testimonial-image ">
+                                            <img alt="" src="https://uxindo.com/wp-content/uploads/2019/07/testimoni-susanwati-ux-indonesia.jpg">
+                                        </div>
+                                        <a class="about-testimonial-author" href="#">Susanwati</a>
+                                        <span class="about-testimonial-company">Senior Vice President, Bank Central Asia</span>
+                                        <div class="about-testimonial-content">
+                                            <p class="about-testimonial-quote">
+                                                Training UX Indonesia menarik banget karena kita tidak hanya fokus kepada bagaimana memikirkan UX, tapi juga setelah kita lakukan UX harus tahu bagaimana cara mengukurnya.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="about-testimonial-image ">
+                                            <img alt="" src="https://uxindo.com/wp-content/uploads/2019/07/testimoni-monika-ux-indonesia.jpg">
+                                        </div>
+                                        <a class="about-testimonial-author" href="#">Monika Halim</a>
+                                        <span class="about-testimonial-company">Head of Product Design, Tokopedia</span>
+                                        <div class="about-testimonial-content">
+                                            <p class="about-testimonial-quote">
+                                                I feel very excited about this. Karena tahu banyak praktisi-praktisi yang nanti akan membangun produk dan bisnis yang lebih user friendly buat semua orang.
+                                            </p>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="about-testimonial-image ">
+                                            <img alt="" src="https://uxindo.com/wp-content/uploads/2019/07/testimoni-siska-ux-indonesia.jpg">
+                                        </div>
+                                        <a class="about-testimonial-author" href="#">Siska Komala Sari</a>
+                                        <span class="about-testimonial-company">Lecturer, Telkom University</span>
+                                        <div class="about-testimonial-content">
+                                            <p class="about-testimonial-quote">
+                                                Lebih jelas step-by-step-nya dari membuat persona sampai desain solusi, sangat beruntung diajarin UX langsung dari pakarnya.
+                                            </p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </section>
+                    </div>
+                    <!--testimonial end-->
                 </div>
-                <div class="col-lg-6 col-sm-6">
-                    <h1>flat & modern trend design</h1>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener. natus error sit voluptatem accusantiu.</p>
-                    <a href="http://themeforest.net/item/flatlab-bootstrap-3-responsive-admin-template/5902687?WT.ac=portfolio&amp;WT.z_author=vectorlab" target="_blank" class="btn btn-purchase">Purchase now</a>
+                <div class="col-lg-7">
+                    <h3 class="skills">Kata mereka tentang kami</h3>
+                    <p>
+                        Para klien yang sudah bekerjasama dengan kami dapat memberikan gambaran tentang bagaimana kami bekerja dan membantu mereka membuat sebuah produk yang dicintai penggunanya.
+                    </p>
                 </div>
             </div>
         </div>
     </div>
     <!--property end-->
-
     <div class="container">
-
         <div class="row">
-            <div class="col-lg-6">
-                <!--tab start-->
-                <section class="panel tab">
-                    <header class="panel-heading tab-bg-dark-navy-blue">
-                        <ul class="nav nav-tabs nav-justified ">
-                            <li class="active">
-                                <a data-toggle="tab" href="#news">
-                                    News
-                                </a>
-                            </li>
-                            <li>
-                                <a data-toggle="tab" href="#events">
-                                    Events
-                                </a>
-                            </li>
-                            <li class="">
-                                <a data-toggle="tab" href="#notice-board">
-                                    Notice board
-                                </a>
-                            </li>
-                        </ul>
-                    </header>
-                    <div class="panel-body">
-                        <div class="tab-content tasi-tab">
-                            <div id="news" class="tab-pane active">
-                                <article class="media">
-                                    <a class="pull-left thumb p-thumb">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt="">
-                                    </a>
-                                    <div class="media-body">
-                                        <a href="#" class=" p-head">News Tittle goes here</a>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                                    </div>
-                                </article>
-                                <article class="media">
-                                    <a class="pull-left thumb p-thumb">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product2.png" alt="">
-                                    </a>
-                                    <div class="media-body">
-                                        <a href="#" class=" p-head">News Tittle goes here 2</a>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. simsut dorlor</p>
-                                    </div>
-                                </article>
-                                <article class="media">
-                                    <a class="pull-left thumb p-thumb">
-                                        <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/product1.jpg" alt="">
-                                    </a>
-                                    <div class="media-body">
-                                        <a href="#" class=" p-head">News Tittle goes here 3</a>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. sumon ahmed</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div id="events" class="tab-pane">
-                                <article class="media">
-                                    <a class="pull-left thumb p-thumb">
-                                        <!--image goes here-->
-                                    </a>
-                                    <div class="media-body">
-                                        <a href="#" class="cmt-head">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-                                        <p> <i class="fa fa-clock-o"></i> 1 hours ago</p>
-                                    </div>
-                                </article>
-                                <article class="media">
-                                    <a class="pull-left thumb p-thumb">
-                                        <!--image goes here-->
-                                    </a>
-                                    <div class="media-body">
-                                        <a href="#" class="cmt-head">Nulla vel metus scelerisque ante sollicitudin commodo</a>
-                                        <p> <i class="fa fa-clock-o"></i> 23 mins ago</p>
-                                    </div>
-                                </article>
-                                <article class="media">
-                                    <a class="pull-left thumb p-thumb">
-                                        <!--image goes here-->
-                                    </a>
-                                    <div class="media-body">
-                                        <a href="#" class="cmt-head">Donec lacinia congue felis in faucibus. </a>
-                                        <p> <i class="fa fa-clock-o"></i> 15 mins ago</p>
-                                    </div>
-                                </article>
-                            </div>
-                            <div id="notice-board" class="tab-pane ">
-                                <p>Notice board goes here Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
-                                <p>Notice board goes here Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ablic jiener.</p>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-                <!--tab end-->
+            <div class="text-center feature-head">
+                <h1> Leadership Team </h1>
+                <p>With over 35+ years of combined international and experience in Indonesia, we’ve got a well-seasoned team at the helm.</p>
             </div>
             <div class="col-lg-6">
-                <!--testimonial start-->
-                <div class="about-testimonial boxed-style about-flexslider ">
-                    <section class="slider">
-                        <div class="flexslider">
-                            <ul class="slides about-flex-slides">
-                                <li>
-                                    <div class="about-testimonial-image ">
-                                        <img alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/testimonial-img-1.jpg">
-                                    </div>
-                                    <a class="about-testimonial-author" href="#">Ericson Reagan</a>
-                                    <span class="about-testimonial-company">ABC Realestate LLC</span>
-                                    <div class="about-testimonial-content">
-                                        <p class="about-testimonial-quote">
-                                            Pellentesque et pulvinar enim. Quisque at tempor ligula. Maecenas augue ante, euismod vitae egestas sit amet, accumsan eu nulla. Nullam tempor lectus a ligula lobortis pretium. Donec ut purus sed tortor malesuada venenatis eget eget lorem.
-                                        </p>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="about-testimonial-image ">
-                                        <img alt="" src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/avatar2.jpg">
-                                    </div>
-                                    <a class="about-testimonial-author" href="#">Jonathan Smith</a>
-                                    <span class="about-testimonial-company">DEF LLC</span>
-                                    <div class="about-testimonial-content">
-                                        <p class="about-testimonial-quote">
-                                            Pellentesque et pulvinar enim. Quisque at tempor ligula. Maecenas augue ante, euismod vitae egestas sit amet, accumsan eu nulla. Nullam tempor lectus a ligula lobortis pretium. Donec ut purus sed tortor malesuada venenatis eget eget lorem.
-                                        </p>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                    </section>
+                <div class="person text-center">
+                    <img src="https://uxindo.com/wp-content/uploads/2018/06/eunice-v5.png" alt="">
                 </div>
-                <!--testimonial end-->
+                <div class="person-info text-center">
+                    <h4>
+                        <a href="https://www.linkedin.com/in/dr-eunice-sari/">Dr. Eunice Sari</a>
+                    </h4>
+                    <p class="text-muted"> CEO and Co-Founder of UX Indonesia Google Mentor and Certified Design Sprint Master </p>
+                    <div class="team-social-link">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <p></p>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="person text-center">
+                    <img src="https://uxindo.com/wp-content/uploads/2018/06/josh-v5.png" alt="">
+                </div>
+                <div class="person-info text-center">
+                    <h4>
+                        <a href="javascript:;">Josh (Adi Tedjasaputra, MSc)</a>
+                    </h4>
+                    <p class="text-muted"> Director and Co-Founder of UX Indonesia Google Mentor and Certified Design Sprint Master </p>
+                    <div class="team-social-link">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                        <a href="#"><i class="fa fa-linkedin"></i></a>
+                        <a href="#"><i class="fa fa-google-plus"></i></a>
+                    </div>
+                    <p></p>
+                </div>
             </div>
         </div>
-
-        <!--recent work start-->
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="r-work">Recent Work</h2>
-                <ul class="bxslider">
-                    <li>
-                        <div class="element item view view-tenth" data-zlname="reverse-effect">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/works/img1.jpg" alt="" />
-                            <div class="mask">
-                                <a data-zl-popup="link" href="javascript:;">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                                <a data-zl-popup="link2" class="fancybox" rel="group" href="images/works/img1.jpg">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="element item view view-tenth" data-zlname="reverse-effect">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/works/img2.jpg" alt="" />
-                            <div class="mask">
-                                <a data-zl-popup="link" href="javascript:;">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                                <a data-zl-popup="link2" class="fancybox" rel="group" href="images/works/img2.jpg">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="element item view view-tenth" data-zlname="reverse-effect">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/works/img3.jpg" alt="" />
-                            <div class="mask">
-                                <a data-zl-popup="link" href="javascript:;">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                                <a data-zl-popup="link2" class="fancybox" rel="group" href="images/works/img3.jpg">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="element item view view-tenth" data-zlname="reverse-effect">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/works/img4.jpg" alt="" />
-                            <div class="mask">
-                                <a data-zl-popup="link" href="javascript:;">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                                <a data-zl-popup="link2" class="fancybox" rel="group" href="images/works/img4.jpg">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="element item view view-tenth" data-zlname="reverse-effect">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/works/img5.jpg" alt="" />
-                            <div class="mask">
-                                <a data-zl-popup="link" href="javascript:;">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                                <a data-zl-popup="link2" class="fancybox" rel="group" href="images/works/img5.jpg">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="element item view view-tenth" data-zlname="reverse-effect">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/works/img6.jpg" alt="" />
-                            <div class="mask">
-                                <a data-zl-popup="link" href="javascript:;">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                                <a data-zl-popup="link2" class="fancybox" rel="group" href="images/works/img6.jpg">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="element item view view-tenth" data-zlname="reverse-effect">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/works/img7.jpg" alt="" />
-                            <div class="mask">
-                                <a data-zl-popup="link" href="javascript:;">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                                <a data-zl-popup="link2" class="fancybox" rel="group" href="images/works/img7.jpg">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="element item view view-tenth" data-zlname="reverse-effect">
-                            <img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/works/img1.jpg" alt="" />
-                            <div class="mask">
-                                <a data-zl-popup="link" href="javascript:;">
-                                    <i class="fa fa-link"></i>
-                                </a>
-                                <a data-zl-popup="link2" class="fancybox" rel="group" href="images/works/img1.jpg">
-                                    <i class="fa fa-search"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        <!--recent work end-->
-
     </div>
-
-     <!--parallax start-->
-     <section class="parallax1">
-         <div class="container">
-             <div class="row">
-                 <h1>“And here i am using my own lungs like a sucker. How is education supposed to make <br>
-                     me feel smarter?”</h1>
-             </div>
-         </div>
-     </section>
-     <!--parallax end-->
-
-     <div class="container">
-         <!--clients start-->
-         <div class="clients">
-             <div class="container">
-                 <div class="row">
-                     <div class="col-lg-12 text-center">
-                         <ul class="list-unstyled">
-                             <li><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/clients/logo1.png" alt=""></a></li>
-                             <li><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/clients/logo2.png" alt=""></a></li>
-                             <li><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/clients/logo3.png" alt=""></a></li>
-                             <li><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/clients/logo4.png" alt=""></a></li>
-                             <li><a href="#"><img src="<?php echo esc_url( get_template_directory_uri() ); ?>/images/clients/logo5.png" alt=""></a></li>
-                         </ul>
-                     </div>
-                 </div>
-             </div>
-         </div>
-         <!--clients end-->
-     </div>
+    <hr>
+    <div class="container">
+        <!--clients start-->
+        <div class="clients">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 text-center">
+                        <ul class="list-unstyled">
+                            <li><a href="#"><img src="https://uxindo.com/wp-content/uploads/2018/12/PT.-Bank-Central-Asia-Tbk.png" alt=""></a></li>
+                            <li><a href="#"><img src="https://uxindo.com/wp-content/uploads/2018/12/Grab.png" alt=""></a></li>
+                            <li><a href="#"><img src="https://uxindo.com/wp-content/uploads/2018/12/OVO-PT.-Visionet-Internasional.png" alt=""></a></li>
+                            <li><a href="#"><img src="https://uxindo.com/wp-content/uploads/2018/12/Permata-Bank.png" alt=""></a></li>
+                            <li><a href="#"><img src="https://uxindo.com/wp-content/uploads/2018/12/PT.-Telekomunikasi-Indonesia-Tbk.png" alt=""></a></li>
+                            <li><a href="#"><img src="https://uxindo.com/wp-content/uploads/2018/12/PT.-Telekomunikasi-Selular.png" alt=""></a></li>
+                            <li><a href="#"><img src="https://uxindo.com/wp-content/uploads/2019/01/Ooredoov1.png" alt=""></a></li>
+                            <li><a href="#"><img src="https://uxindo.com/wp-content/uploads/2018/12/Bukalapak.png" alt=""></a></li>
+                            <li><a href="#"><img src="https://uxindo.com/wp-content/uploads/2018/12/PT.-Kompas-Media-Nusantara.png" alt=""></a></li>
+                            <li><a href="#"><img src="https://uxindo.com/wp-content/uploads/2018/12/Manulife-Indonesia.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--clients end-->
+    </div>
 
      <!--container end-->
 <?php get_footer(); ?>

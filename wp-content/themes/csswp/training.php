@@ -32,7 +32,7 @@ get_header();
                 <div class="card-body">
                     <h1 class="card-title">For Companies</h1>
                     <p class="card-text">Customized UX Workshop, Bootcamp, Retreat</p>
-                    <a href="#" class="btn btn-shadow btn-danger">OPTIMIZE BUSINESS VALUE</a>
+                    <a href="http://wordpress-custom.test/training/for-company/" class="btn btn-shadow btn-danger">OPTIMIZE BUSINESS VALUE</a>
                 </div>
             </div>
         </div>
