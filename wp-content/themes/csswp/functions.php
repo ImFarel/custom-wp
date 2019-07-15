@@ -79,6 +79,23 @@ function twentynineteen_get_discussion_data() {
 	return $discussion;
 }
 
+function featureText()
+{
+	if(is_archive() ){
+		_e('BLOG | ');
+
+		single_term_title('Browsing: ');
+
+		if ( is_month() ) {
+			$monthNum = get_query_var('monthnum');
+			$month = date("F", mktime(0, 0, 0, $monthNum));
+
+			$year = get_query_var('year');
+
+			echo 'Post from '. $month . ' ' . $year ;
+		}
+	}
+}
 
 
 

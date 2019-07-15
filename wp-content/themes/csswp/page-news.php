@@ -1,8 +1,11 @@
 <?php 
 /**
- * Archive Template
+ * Template Name: Latest News
  * 
  */
+
+
+
 
 get_header(); ?>
     <!--breadcrumbs start-->
@@ -10,13 +13,13 @@ get_header(); ?>
         <div class="container">
             <div class="row">
                 <div class="col-lg-4 col-sm-4">
-                    <h1><?php featureText(); ?></h1>
+                    <h1>Blog</h1>
                 </div>
                 <div class="col-lg-8 col-sm-8">
                     <ol class="breadcrumb pull-right">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Pages</a></li>
-                        <li class="active">Archive</li>
+                        <li class="active">Blog</li>
                     </ol>
                 </div>
             </div>
@@ -29,6 +32,9 @@ get_header(); ?>
         <div class="row">
             <!--blog start-->
             <div class="col-lg-9 ">
+            
+            <?php query_posts('category_name=news'); ?>
+
                 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <div class="blog-item">
                     <div class="row">
@@ -68,14 +74,9 @@ get_header(); ?>
                             </div>
                         </div>
                         <div class="col-lg-10 col-sm-10">
-                            <h1><?php the_title(); ?></h1>
-                            <p><?php the_content(); ?></p>
-                            <?php wp_link_pages(); comments_template();?>
-                            <!-- comment-section -->
-                            
-                            
-                            <!-- end comment-section -->
-                            
+                            <h1><a href="<?php the_permalink(); ?>" title="<?php the_title_attribute(); ?>"><?php the_title(); ?></a></h1>
+                            <p><?php the_excerpt(); ?></p>
+                            <a href="<?php the_permalink(); ?>" class="btn btn-danger">Continue Reading</a>
                         </div>
                     </div>
                 </div>
@@ -88,8 +89,8 @@ get_header(); ?>
                 
                 <div class="text-center">
                     <ul class="pagination">
-                        <li><?php next_post_link('%link'); ?></li>
-                        <li><?php previous_post_link('%link'); ?></li>
+                        <li><?php next_posts_link('Older Posts'); ?></li>
+                        <li><?php previous_posts_link('Newer Posts'); ?></li>
                     </ul>
                 </div>
 
@@ -105,6 +106,4 @@ get_header(); ?>
     </div>
     <!--container end-->
     
-
-
 <?php get_footer(); ?>

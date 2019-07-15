@@ -2,35 +2,33 @@
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-lg-3 col-sm-3">
+                <div class="col-lg-6 col-sm-6">
                     <h1>contact info</h1>
                     <address>
-                        <p>Address: No.28-63877 street</p>
-                        <p>lorem ipsum city, Country</p>
-
-                        <p>Phone : (123) 456-7890</p>
-                        <p>Fax : (123) 456-7890</p>
-                        <p>Email : <a href="javascript:;">support@vectorlab.com</a></p>
+                        <p>Email : <a href="javascript:;">eunice@uxindo.com</a></p>
+                        <p>Australian Business Number: 634039759 </p>
+                        <p>Indonesian NPWP: 76.431.729.3-018.000</p>
+                        <p>Copyright © 2019 UX Indonesia </p>
+                        <p> PT UXINDO DIGITAL INDONESIA</p>
+                        <p>All Rights Reserved</p>
                     </address>
                 </div>
-                <div class="col-lg-5 col-sm-5">
+                <!-- <div class="col-lg-5 col-sm-5">
                     <h1>latest tweet</h1>
                     <div class="tweet-box">
                         <i class="fa fa-twitter"></i>
                         <em>Please follow <a href="javascript:;">@nettus</a> for all future updates of us! <a href="javascript:;">twitter.com/vectorlab</a></em>
                     </div>
-                </div>
-                <div class="col-lg-3 col-sm-3 col-lg-offset-1">
+                </div> -->
+                <div class="col-lg-6 col-sm-6 ">
                     <h1>stay connected</h1>
                     <ul class="social-link-footer list-unstyled">
-                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                        <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fa fa-skype"></i></a></li>
-                        <li><a href="#"><i class="fa fa-github"></i></a></li>
-                        <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+                        <li><a href="https://facebook.com/uxindo"><i class="fa fa-facebook"></i></a></li>
+                        <li><a href="https://www.instagram.com/uxindo/"><i class="fa fa-instagram"></i></a></li>
+                        <li><a href="https://uxindo.com/?feed=rss"><i class="fa fa-rss"></i></a></li>
+                        <li><a href="https://www.linkedin.com/company/ux-indonesia"><i class="fa fa-linkedin"></i></a></li>
+                        <li><a href="https://twitter.com/indonesia_ux"><i class="fa fa-twitter"></i></a></li>
+                        <li><a href="https://youtube.com/c/uxindonesia"><i class="fa fa-youtube"></i></a></li>
                     </ul>
                 </div>
             </div>
